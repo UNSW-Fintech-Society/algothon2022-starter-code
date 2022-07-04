@@ -6,9 +6,9 @@ currentPos = np.zeros(nInst)
 
 def getMyPosition (prcSoFar):
     global currentPos
-    (nins,nt) = prcSoFar.shape
-    rpos = np.array([int(x) for x in 1000 * np.random.randn(nins)])
-    currentPos += rpos
+
+    # Build your function body here
+
     return currentPos
 
     
